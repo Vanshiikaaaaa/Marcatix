@@ -576,7 +576,9 @@ a .contactBtn {
     object-fit: cover;
     width: 167px;
 }
-
+/* .home_container{
+  margin-left: 100px;
+} */
 
 body, html {
   margin: 0;
