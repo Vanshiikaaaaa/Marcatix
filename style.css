@@ -336,7 +336,7 @@ a .contactBtn {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 80px;
+    margin-left: 33px;
   }
   .home_content {
     border: none;
@@ -564,8 +564,12 @@ a .contactBtn {
     margin-left: 47px;
     height: 173px;
   }
+  .services_heading{
+    margin-left: 83px;
+  }
 }
 @media only screen and (max-width: 426px){
+  
   .header{
     gap: 305px;
   }
