@@ -336,7 +336,7 @@ a .contactBtn {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 0px;
+    margin-left: 86px;
   }
   .home_content {
     border: none;
@@ -603,6 +603,7 @@ body, html {
   width: 100%;
   max-width: 1200px; /* Adjust the max-width as needed */
   padding: 20px;
+  margin-left: 86px;
 }
 
 .service_container{
