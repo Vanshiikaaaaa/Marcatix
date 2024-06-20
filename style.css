@@ -482,12 +482,13 @@ a .contactBtn {
 
 @media only screen and (max-width: 769px) {
   .service_container {
+    align-items: center;
     margin-top: 103px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     column-gap: 60px;
-    row-gap: 50px;
+    
   }
 
   .box {
