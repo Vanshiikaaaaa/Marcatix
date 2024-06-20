@@ -480,7 +480,7 @@ a .contactBtn {
 
 /* 556*285 */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
   .service_container {
     margin-top: 103px;
     display: grid;
@@ -516,7 +516,7 @@ a .contactBtn {
   }
 
   .boxheading {
-    width: 25vw;
+    width: 58vw;
     border: 2px solid var(--pcolor);
     padding: 23px;
     border-radius: 23px;
@@ -541,15 +541,17 @@ a .contactBtn {
 @media only screen and (max-width: 667px) {
   .service_container {
     margin-top: 103px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    /* display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 281px 281px 281px 281px 281px 281px;
     column-gap: 60px;
-    row-gap: 50px;
+    row-gap: 50px; */
   }
 
   .box {
-    width: 144px;
+    width: 444px;
     gap: 27px;
   }
   .box .shift_right {
@@ -599,6 +601,7 @@ body, html {
   max-width: 1200px; /* Adjust the max-width as needed */
   padding: 20px;
 }
+
 }
 
 
