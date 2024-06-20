@@ -407,6 +407,10 @@ a .contactBtn {
     height: 0px;
     display: none;
   }
+
+  .contact_container{
+    gap: 23px;
+  }
 }
 @media only screen and (max-width: 700px) {
   .contact_heading {
@@ -420,7 +424,7 @@ a .contactBtn {
 
   .contact-img img {
     object-fit: cover;
-    width: 220px;
+    width: 190px;
   }
 
   .email {
