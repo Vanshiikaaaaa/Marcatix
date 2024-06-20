@@ -377,7 +377,7 @@ a .contactBtn {
     background-color: var(--circlecolor);
     border-radius: 50%;
 
-    margin: 30px 8px 0px 65px;
+    margin: 30px 8px 0px 79px;
   }
   .circle img {
     width: 300px;
@@ -396,9 +396,11 @@ a .contactBtn {
     color: var(--pcolor);
     text-align: center;
     width: 70vw;
+    margin-left: 51px;
   }
   .visible .contactBtn {
     visibility: visible;
+    margin-left: 37px;
   }
   .home_content p,
   .home_content .contactBtn {
