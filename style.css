@@ -336,7 +336,7 @@ a .contactBtn {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 86px;
+    margin-left: 80px;
   }
   .home_content {
     border: none;
@@ -541,6 +541,9 @@ a .contactBtn {
 }
 
 @media only screen and (max-width: 667px) {
+  .label{
+    margin-left: 23px;
+  }
   .service_container {
     margin-top: 103px;
     display: flex;
@@ -563,6 +566,9 @@ a .contactBtn {
   }
 }
 @media only screen and (max-width: 426px){
+  .header{
+    gap: 305px;
+  }
   .footer{
     width: 125%;
   }
@@ -609,6 +615,8 @@ body, html {
 .service_container{
   margin-left: 22px;
 }
+
+
 
 }
 
